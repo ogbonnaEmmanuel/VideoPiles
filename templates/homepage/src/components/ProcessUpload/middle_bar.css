@@ -1,0 +1,36 @@
+#middle_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#upload_area {
+    background-color: #000000;
+    padding: 30px 100px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.rule_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.rule_box {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    align-self: center;
+}
+
+.rule_text {
+    margin-left: 10px;
+}
+@media screen and (max-width: 768px){
+   #upload_area{
+       padding: 10px 30px;
+   }
+}

@@ -1,0 +1,39 @@
+#upload_border{
+    border: 15px solid #c8c8c8;
+    margin-top: 30px;
+}
+.center_element{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.process_icon{
+    font-size: 40px;
+    cursor: pointer;
+}
+#download_icon{
+    display: none;
+    text-align: center;
+}
+#folder_icon{
+    display: block;
+    text-align: center;
+}
+#file {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+@media screen and (max-width: 768px){
+    .center_element{
+        display: block;
+        text-align: center;
+    }
+    #upload_feedback{
+        font-size: 14px;
+    }
+}

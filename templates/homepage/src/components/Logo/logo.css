@@ -1,0 +1,19 @@
+.main_logo{
+    padding: 10px 20px;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.icon_play{
+    font-size: 25px;
+    margin-top: -4px;
+}
+@media screen and (max-width: 768px){
+    .main_logo{
+        margin-top: 20px;
+        padding: 10px 20px;
+    }
+}

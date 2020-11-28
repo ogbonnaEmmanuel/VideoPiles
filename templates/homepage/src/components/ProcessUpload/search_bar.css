@@ -1,0 +1,24 @@
+#search_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#search_area{
+    border: 2px solid #eeeeee;
+    width: 400px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+    padding: 10px;
+    transition: border 650ms;
+    font-weight: bolder;
+    text-align: center;
+}
+#search_area:focus{
+    border: 2px solid #889296;
+}
+@media screen and (max-width: 768px){
+    #search_area{
+        width: 200px;
+    }
+}
