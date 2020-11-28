@@ -11,6 +11,7 @@ moviepy = "*"
 gunicorn = "*"
 whitenoise = "*"
 ffmpeg = "*"
+imageio-ffmpeg = "*"
 
 [requires]
 python_version = "3.8"
