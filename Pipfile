@@ -10,6 +10,7 @@ django = "*"
 moviepy = "*"
 gunicorn = "*"
 whitenoise = "*"
+ffmpeg = "*"
 
 [requires]
 python_version = "3.8"
