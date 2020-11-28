@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'zii49!$vu*4^7hkvzdjgnoqw9%h_45aaq=cr%*jc6_gaa6rx9$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'videopile.herokuapp.com']
 
