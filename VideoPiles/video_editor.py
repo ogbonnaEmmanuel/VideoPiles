@@ -2,8 +2,7 @@ import os
 import secrets
 import zipfile
 
-
-from moviepy.editor import VideoFileClip
+from moviepy.video.io.VideoFileClip import VideoFileClip
 
 
 class VideoDivision:

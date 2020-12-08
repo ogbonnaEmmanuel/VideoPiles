@@ -24,7 +24,7 @@ SECRET_KEY = 'zii49!$vu*4^7hkvzdjgnoqw9%h_45aaq=cr%*jc6_gaa6rx9$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['videopile.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'videopile.herokuapp.com']
 
 # Application definition
 
@@ -49,6 +49,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'VideoPiles.urls'
+FILE_UPLOAD_HANDLERS = ['django.core.files.uploadhandler.TemporaryFileUploadHandler']
 
 TEMPLATES = [
     {

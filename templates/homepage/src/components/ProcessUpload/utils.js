@@ -1,10 +1,10 @@
-const maximum_file_size = 100;
+const maximum_file_size = 5;
 const video_type_required = {mp4: 'mp4', mpeg4: 'mpeg4'};
 const maximum_pile = 5;
 let error_type = '';
 
 const error_msg = {
-    file_size_error: `file size is greater than ${maximum_file_size}`,
+    file_size_error: `file size is greater than ${maximum_file_size}mb`,
     invalid_video_error: 'video type not supported',
     invalid_pile_error: `pile number is greater than ${maximum_pile}`,
     empty_pile_error:'please fill in pile number',
@@ -16,6 +16,7 @@ const CALCULATE_FILE_SIZE = (file_size => {
         error_type = error_msg.file_size_error;
     }
 })
+
 
 const VALIDATE_VIDEO_TYPE = ((video_type) => {
     let user_video_type = video_type.split('/')[1];

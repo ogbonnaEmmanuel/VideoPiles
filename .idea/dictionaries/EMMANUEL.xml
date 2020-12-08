@@ -5,6 +5,7 @@
       <w>gunicorn</w>
       <w>herokuapp</w>
       <w>hpwvaapy</w>
+      <w>uploadhandler</w>
       <w>videopile</w>
       <w>whitenoise</w>
     </words>

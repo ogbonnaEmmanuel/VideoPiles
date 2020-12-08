@@ -13,7 +13,7 @@ class MiddleBar extends React.Component {
                     </div>
                     <div className="rule_container">
                         <p className="rule_box"/>
-                        <p className="rule_text">max file size 100mb</p>
+                        <p className="rule_text">max file size 5mb</p>
                     </div>
                     <div className="rule_container">
                         <p className="rule_box"/>

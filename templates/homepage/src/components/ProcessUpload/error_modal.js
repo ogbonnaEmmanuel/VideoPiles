@@ -36,7 +36,7 @@ class ErrorModal extends React.Component {
                         </p>
                         <div className="dismiss_counter_container">
                             <div className="dismiss_counter">
-                                <p id="error_counter">1</p>
+                                <p id="error_counter">0</p>
                             </div>
                         </div>
                     </div>
